@@ -49,10 +49,10 @@
    - `@` sets column type to date
    - `~` autodetects column type
 
-- all values are stored in their original format, and only converted on demand and as needed.
-- values that can't be properly converted are flagged with `~` on the display
-- for commands like sort which require a correctly typed value, the default (0) value for that type is used
-- cell edits are rejected if they don't convert to the column type
+   **Note**: All values are stored in their original format, and only converted on demand and as needed.
+   values that can't be properly converted are flagged with `~` at the right edge of their cells.
+   For commands like sort which require a correctly typed value, the default (0) value for that type is used.
+   Cell edits are rejected if they don't convert to the column type.
 
 ## Creating new columns
 
